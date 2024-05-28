@@ -9,7 +9,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log(`${client.user.tag} has logged in.`);
-    client.user.setActivity('.gg/client yardım için .help', { type: 'PLAYING' });
+    client.user.setActivity('.gg/civcvishopping yardım için .help', { type: 'PLAYING' });
 });
 
 client.on('message', async (message) => {
@@ -44,7 +44,7 @@ client.on('message', async (message) => {
                 const embedChannel = new Discord.MessageEmbed()
                     .setColor('#0099ff')
                     .setDescription('İstenen hesap başarıyla özel mesajlarınıza gönderildi!')
-                    .setImage('https://cdn.discordapp.com/attachments/1236622634477944862/1237422641489383565/1234.png?ex=663b9723&is=663a45a3&hm=1210deeaff7008c67707e42b05661b3fb7d7d00ab79d5455b1d75e2da3905566&') // Reklam olarak gösterilecek resim
+                    .setImage('https://yandex.com.tr/gorsel/search?cbir_id=12031956%2Fez313ABh8K5MsNNkG8FCMQ5337&cbir_page=similar&img_url=https%3A%2F%2Fimg-9gag-fun.9cache.com%2Fphoto%2FamPGG56_460s.jpg&lr=11504&ogl_url=https%3A%2F%2Fimg-9gag-fun.9cache.com%2Fphoto%2FamPGG56_460s.jpg&p=1&pos=27&redircnt=1716925337.1&rlt_url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FH9l1u0vYRKo%2Fmqdefault.jpg&rpt=imageview&text=url%3A%22avatars.mds.yandex.net%2Fget-images-cbir%2F12031956%2Fez313ABh8K5MsNNkG8FCMQ5337%2Forig%22&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F12031956%2Fez313ABh8K5MsNNkG8FCMQ5337%2Forig') // Reklam olarak gösterilecek resim
                     .setTimestamp()
                     .setFooter('Gen Bot', client.user.avatarURL());
                 message.channel.send(embedChannel);
@@ -67,7 +67,7 @@ client.on('message', async (message) => {
                 .setTitle('Stok Durumu')
                 .setDescription('Stok Listesi:')
                 .setTimestamp()
-                .setImage('https://cdn.discordapp.com/attachments/1233504291717910548/1236594938863554642/standard.gif?ex=66389448&is=663742c8&hm=39bfa6d1d44b8f937fdf0c76c3ab028c64bfbdf96b07394191d26f4cca8037b7&') // Reklam olarak gösterilecek resim
+                .setImage('https://yandex.com.tr/gorsel/search?cbir_id=12031956%2Fez313ABh8K5MsNNkG8FCMQ5337&cbir_page=similar&img_url=https%3A%2F%2Fimg-9gag-fun.9cache.com%2Fphoto%2FamPGG56_460s.jpg&lr=11504&ogl_url=https%3A%2F%2Fimg-9gag-fun.9cache.com%2Fphoto%2FamPGG56_460s.jpg&p=1&pos=27&redircnt=1716925337.1&rlt_url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FH9l1u0vYRKo%2Fmqdefault.jpg&rpt=imageview&text=url%3A%22avatars.mds.yandex.net%2Fget-images-cbir%2F12031956%2Fez313ABh8K5MsNNkG8FCMQ5337%2Forig%22&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F12031956%2Fez313ABh8K5MsNNkG8FCMQ5337%2Forig') // Reklam olarak gösterilecek resim
                 .setFooter('Gen Bot', client.user.avatarURL());
                 
 
